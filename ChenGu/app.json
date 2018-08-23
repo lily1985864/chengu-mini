@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/product/product",
+    "pages/theme/theme",
+    "pages/cart/cart",
+    "pages/category/category"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#AB956D",
+    "navigationBarTextStyle": "#ffffff",
+    "navigationBarTitleText": "晨谷道场",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/toolbar/home.png",
+        "selectedIconPath": "images/toolbar/home@selected.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "images/toolbar/home.png",
+        "selectedIconPath": "images/toolbar/home@selected.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "购物车",
+        "iconPath": "images/toolbar/home.png",
+        "selectedIconPath": "images/toolbar/home@selected.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "images/toolbar/home.png",
+        "selectedIconPath": "images/toolbar/home@selected.png"
+      }
+    ]
+  }
+}
